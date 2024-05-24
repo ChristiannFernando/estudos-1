@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+        }
+        a{
+         color:rgb(236, 20, 20);
+         text-decoration: none;
+         font-weight:bold;   
+        }
+        a:visited{
+            color:rgb(185, 29, 29);699)
+        }
+        a:hover{
+            text-decoration:underline;
+        }
+        a:active{
+            color:blue;
+        }
+        a::after{
+            content:'[link]';
+            text-decoration:none;
+            font-weight:normal;
+            color:rgba(150, 150, 150, 0.555);           
+        }
+        .especial{
+            background-color:rgba(255, 0, 0, 0.342);
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>links personalizados</h1>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=emDuyhYqlXw&list=PLZ65xj2SRHQB0T2GGk-R7bYxorKUkcyoj&index=49" target="_blank">canal do youtube</a></li>
+        <li><a href="https://www.linkedin.com/in/christian-fernando-99a12b2bb/" target="_blank" class="especial">linkedin</a></li>
+    </ul>
+</body>
+</html>

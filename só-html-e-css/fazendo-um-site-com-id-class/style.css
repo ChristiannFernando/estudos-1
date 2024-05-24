@@ -1,0 +1,19 @@
+body{
+    background-color:#6ab6b8cb;
+    font-family:sans-serif;
+}
+#titulo{
+    text-align:center;
+    background-color:#015f5e;
+    color:white;
+}
+.basico{
+    color:#2d7c31cb;
+}
+.intermediario{
+    color:#7b7c2dcb;
+}
+.avancado{
+    color:#7c2d2dcb;
+    background-color:#01595849;
+}
