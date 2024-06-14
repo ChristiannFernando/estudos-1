@@ -34,9 +34,10 @@ header{
     font-style:normal;
     font-weight:900;
     min-width:500;
+    font-size: 3em;
 }
 
-.mencao{
+a{
     color:aliceblue;
     text-decoration: none;
     
@@ -98,5 +99,12 @@ padding-bottom: 3.5vh;
    display:inline-block;
     color:rgb(236, 229, 229);
     padding:5px;
+    text-shadow:  1px 1px 1px black;
+    
 }
 
+footer{
+    background-color:black;
+    color:white;
+    text-align:center;
+}
